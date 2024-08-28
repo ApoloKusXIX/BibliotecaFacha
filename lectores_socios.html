@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lectores y Socios</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: inline-block;
+            width: 150px;
+        }
+
+        input[type="text"], input[type="email"] {
+            padding: 8px;
+            width: 300px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            background-color: #1e90ff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        .back-button {
+            display: block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            width: 150px;
+        }
+
+        .back-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lectores y Socios</h1>
+    </header>
+
+    <form>
+        <h3>Agregar Lector</h3>
+        <label for="nombreLector">Nombre:</label>
+        <input type="text" id="nombreLector" name="nombreLector"><br>
+        <label for="direccionLector">Dirección:</label>
+        <input type="text" id="direccionLector" name="direccionLector"><br>
+        <label for="telefonoLector">Teléfono:</label>
+        <input type="text" id="telefonoLector" name="telefonoLector"><br>
+        <label for="emailLector">Correo Electrónico:</label>
+        <input type="email" id="emailLector" name="emailLector"><br>
+        <input type="submit" value="Agregar Lector">
+    </form>
+
+    <form>
+        <h3>Agregar Socio</h3>
+        <label for="nombreSocio">Nombre:</label>
+        <input type="text" id="nombreSocio" name="nombreSocio"><br>
+        <label for="direccionSocio">Dirección:</label>
+        <input type="text" id="direccionSocio" name="direccionSocio"><br>
+        <label for="telefonoSocio">Teléfono:</label>
+        <input type="text" id="telefonoSocio" name="telefonoSocio"><br>
+        <label for="emailSocio">Correo Electrónico:</label>
+        <input type="email" id="emailSocio" name="emailSocio"><br>
+        <input type="submit" value="Agregar Socio">
+    </form>
+
+    <a href="index.html" class="back-button">Volver a Inicio</a>
+    <a href="prestamos.html" class="back-button">Ir a Préstamos</a>
+</body>
+</html>

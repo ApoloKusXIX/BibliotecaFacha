@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Préstamos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #f2f2f2;
+        }
+
+        .back-button {
+            display: block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            width: 150px;
+        }
+
+        .back-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gestión de Préstamos</h1>
+    </header>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre del Lector/Socio</th>
+                <th>Título del Libro</th>
+                <th>Fecha de Préstamo</th>
+                <th>Fecha de Devolución</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan Pérez</td>
+                <td>Cien Años de Soledad</td>
+                <td>01/08/2024</td>
+                <td>15/08/2024</td>
+                <td>No Devuelto</td>
+            </tr>
+            <tr>
+                <td>Maria García</td>
+                <td>Don Quijote</td>
+                <td>05/08/2024</td>
+                <td>19/08/2024</td>
+                <td>Devuelto</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="lectores_socios.html" class="back-button">Volver a Lectores y Socios</a>
+    <a href="index.html" class="back-button">Volver a Inicio</a>
+</body>
+</html>
